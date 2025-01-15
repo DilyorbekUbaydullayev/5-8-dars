@@ -3,12 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Dynamic Slider</title>
+   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>
-        Vazifalar hammasi consolga chiqarish uchun berilgan ekan
-    </h1>
+    <h1>Dynamic Image Slider</h1>
+
+    <form class="form" id="form">
+        <input type="text" id="imageUrl" placeholder="Enter Image URL">
+        <button id="addImage">Add Image</button>
+    </form>
+
+    <div class="slider">
+        <div class="slides" id="slides"></div>
+    </div>
+
+    <div class="controls">
+        <button id="prev">Previous</button>
+        <button id="next">Next</button>
+    </div>
+
     <script type="module" src="./app.js"></script>
 </body>
 </html>
