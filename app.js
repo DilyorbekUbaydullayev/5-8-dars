@@ -1,3 +1,4 @@
+import { slider } from "./slider.js"
 import { task1 } from "./task-1.js"
 import { task2 } from "./task-2.js"
 import { task3 } from "./task-3.js"
@@ -12,4 +13,5 @@ document.addEventListener('DOMContentLoaded', function() {
     task3()
    task4()
 task5()
+slider()
 })
